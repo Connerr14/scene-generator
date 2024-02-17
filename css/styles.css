@@ -1,0 +1,57 @@
+/* Global styling */
+
+/* Set the font family and alignment for the entire body */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* Styling for heading level 1 */
+h1 {
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 68px;
+}
+
+/* Adding margin-top of 3px */
+h2 {
+    margin-top: 3px;
+}
+
+/* Styling for all div elements */
+div {
+    margin: 5px 30px 20px;
+}
+
+/* Styling for the third div element */
+div:nth-of-type(3) {
+    margin-bottom: 20px;
+}
+
+/* Styling for buttons inside div elements */
+div button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 100px 100px 100px;
+    box-shadow: 1px 1px;
+}
+
+/* Styling for buttons inside div elements when hovered */
+div button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the first paragraph inside the last div element */
+div:last-of-type p:nth-of-type(1) {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+/* Styling for the last paragraph in the document */
+p:last-of-type {
+    margin-top: 0px;
+    font-size: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!-- This is the HTML file for Assignment 2 of COMP1073 Client-Side JavaScript. -->
+<head>
+    <!-- Set the character encoding to UTF-8 -->
+    <meta charset="utf-8" />
+    <!-- Set the viewport to control the layout on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set the title of the webpage -->
+    <title>Scene Generator</title>
+    <!-- Linking to external CSS files -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Linking to external JavaScript file -->
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <!-- Heading for the webpage -->
+    <h1>Scene Generator</h1>
+    <h2>Pick Your Color</h2>
+    <div>
+        <!-- Label for the custom number input field -->
+        <label for="customNumber">Generate a color systematically (Enter a number from 1 to 100):</label>
+        <!-- Input field for entering a custom number -->
+        <input id="customNumber" type="number" placeholder="" />
+    </div>
+    <div>
+        <!-- Button to change the custom color -->
+        <button class="custColor">Change to your custom color</button>
+        <!-- Button to change the random color -->
+        <button class="randColor">Change to a random color</button>
+    </div>
+    <div>
+        <h2>Choose Your Image</h2>
+        <!-- Label for the image selection dropdown -->
+        <label for="imageSelect">Select Image</label>
+        <!-- Dropdown for selecting an image -->
+        <select id="imageSelect">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+    <div>
+        <!-- Image element to display the selected image -->
+        <img id="images" src="" alt=""></img>
+    </div>
+    <div>
+        <p>Created by Conner Recoskie</p>
+
+        <!-- Paragraph element to display my student ID -->
+        <p id="myStudentId"></p>
+    </div>
+</body>
+</html>
