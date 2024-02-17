@@ -26,7 +26,7 @@ function changeCustomColor() {
 // function to change bg color from random no.
 function changeRandomColor() {
     // Generating a random number between 0 and 100
-    let randomNumber =  Math.floor(Math.random() * 100);
+    let randomNumber =  Math.floor(Math.random() * 101);
 
     // Passing the random number to changeCustomColor function
     changeColor(randomNumber);
